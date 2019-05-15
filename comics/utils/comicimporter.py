@@ -262,8 +262,7 @@ class ComicImporter(object):
 
         # TODO: Makes sense to move the image refresh into a
         #       separate function but for now let's leave it here.
-        if data['image'] != '':
-            print(data['image'])
+        if data['image'] != '
             # Delete the existing image before adding the new one.
             if (issue_obj.image):
                 issue_obj.image.delete()
