@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-solo = "*"
+pillow = "*"
+requests = "*"
+requests-cache = "*"
+"beautifulsoup4" = "*"
+natsort = "*"
+redis = "*"
+django-cors-headers = "*"
+celery = "*"
+coreapi = "*"
+djangorestframework-jwt = "*"
+ratelimit = "*"
+psycopg2 = "*"
+
+[dev-packages]
+coverage = "*"
+django-debug-toolbar = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.7"

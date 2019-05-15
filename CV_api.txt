@@ -1,0 +1,1 @@
+Settings.objects.create(api_key='dbea6dbbb8fec8346796a7c64ae34d471fd06039',comics_directory='/dataHD/Comics/Spider-Man/annuals')
